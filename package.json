@@ -2,10 +2,10 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://VladBryzhak.github.io/test",
+  "homepage": "https://VladBryzhak.github.io/goit-js-hw-10",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /test/"
+    "build": "parcel build src/*.html --public-url /goit-js-hw-10/"
   },
   "repository": {
     "type": "git",
@@ -18,10 +18,19 @@
     "url": "https://github.com/goitacademy/parcel-project-template/issues"
   },
   "dependencies": {
-    "modern-normalize": "^1.1.0"
+    "axios": "^1.5.0",
+    "bootstrap-select": "^1.13.18",
+    "choices.js": "^10.2.0",
+    "modern-normalize": "^1.1.0",
+    "nice-select2": "^2.1.0",
+    "notiflix": "^3.2.6",
+    "react-select": "^5.7.4",
+    "slim-select": "^2.6.0",
+    "tom-select": "^2.2.2"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.0",
+    "buffer": "^6.0.3",
     "parcel": "^2.6.0",
     "parcel-reporter-clean-dist": "^1.0.4",
     "posthtml-include": "^1.7.4"
